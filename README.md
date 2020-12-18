@@ -25,6 +25,7 @@ I am going to predict response time using few features
 10.	COMMUNITYSCHOOLDISTRICT
 11.	HELD_INDICATOR
 12.	SPECIAL_EVENT_INDICATOR
+
 These are the factors that I think that they are the one which will be responsible for predicting response time.
 
 
@@ -32,7 +33,8 @@ So, first I am going to analyze these factors and then firstly, clean the data b
 
 
 Data Sources Considering:
-Right now, I am not considering any other data set other than the given Ems data set. But first I will try with my analyses that I am thinking (regression-based approach) and if that does not produce satisfactory result, (working with test data—explained below). I will try with another analytical approach. 
+I am considering NYC weather data as one more data file for my analysis, because weather influences the EMS responce. Weather data is also included in the data files.
+
 Test the model- I am going to split the data in to train and test and then train the model with regressor and then work with unlabeled test data to give results, and compare those results with the original and find the models confusion matrix to estimate accuracy, f1 score etc.
 
 
